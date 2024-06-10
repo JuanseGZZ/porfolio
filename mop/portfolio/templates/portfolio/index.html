@@ -1,0 +1,342 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Juan Segundo Guzzardi
+    </title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- font icons -->
+    <link rel="stylesheet" href="{% static 'portfolio/vendors/themify-icons/css/themify-icons.css' %}">
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="{% static 'portfolio/css/meyawo.css' %}">
+</head> 
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home" style="background-color: #ffffff;">
+    
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        
+
+        <div class="container">
+            <a class="logo" href="#">Guzzardi Juan Segundo</a>
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#service">Skils</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#proyectos">Proyects</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>
+    </nav><!-- End of Page Navbar -->
+
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">Hello!</span>
+                <span class="down">I'm Juan </span>
+            </h1>
+            <p class="header-subtitle">Full stack junior</p>
+            
+            
+        </div>
+    </header><!-- end of page header -->
+
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="{% static 'portfolio/imgs/maan.png' %}" class="about-img"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                        style="border-radius: 130px;">
+                </div>
+                <div class="about-caption">
+                    <p class="section-subtitle">who am i?</p>
+                    <h2 class="section-title mb-3">About Me</h2>
+                    <p class="aboutMe">
+                        I am a student and, since I was a child, curious about how everything works, I dedicated myself to learning. I am self-taught and am looking for work experience. I have worked on community projects, feel comfortable in teams, and have a functional, proactive, and organized approach.
+                        I want to eventually work in cybersecurity and the management of enterprise servers and networks.
+                    </p>
+                    <button class="btn-rounded btn btn-outline-primary mt-4"><a href="{% static 'portfolio/imgs/Englishcvjsg.pdf' %}" download="Englishcvjsg.pdf" style="text-decoration: none; color: inherit;">
+                        Download CV
+                    </a></button>
+                </div>
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
+
+    <!-- service section -->
+    <section class="section" id="service">
+        <div class="container text-center">
+            <h6 class="section-title mb-6">Skills</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Python</h6>
+                            <p class="subtitle">Web scraping, Django websites, chat bots and event bots, MercadoPago API, GPT API. Among other things.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">C / C++</h6>
+                            <p class="subtitle">Handling of data structures and algorithms at the memory level, basic handling of sockets.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">HTML5</h6>
+                            <p class="subtitle">Responsive layout and Bootstrap.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">SQL</h6>
+                            <p class="subtitle">PostgreSQL,SQL SERVER, ERDs, normalizations, query efficiency.</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end of row -->
+            
+            <div class="row" style="margin-top: 4px;">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="https://1000marcas.net/wp-content/uploads/2020/11/Java-logo.png"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Java</h6>
+                            <p class="subtitle">I have worked with object abstraction and the Swing interface in Java.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">JavaScript</h6>
+                            <p class="subtitle">Endpoints in Django, chat bots, data management, and animations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">CSS</h6>
+                            <p class="subtitle">Responsive layout and Bootstrap.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="https://i.pinimg.com/564x/03/a6/fd/03a6fd6b3c8bb8f64c993af1eb2f0bb9.jpg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Django</h6>
+                            <p class="subtitle">Initialization, management, and deployment of the same on Ubuntu Server, shopping websites with logins and purchases via MercadoPago.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end of row -->
+        </div>
+    </section><!-- end of service section -->
+
+    <!-- portfolio section -->
+    <section class="section" id="portfolio" style="display: none;">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Did ?</p>
+            <h6 class="section-title mb-6">Portfolio</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img src="{% static 'portfolio/imgs/folio-1.jpg' %}" class="portfolio-card-img"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Web Designing</h5>
+                                    <p class="font-weight-normal">Category: Web Templates</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="{% static 'portfolio/imgs/folio-2.jpg' %}" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Web Designing</h5>
+                                    <p class="font-weight-normal">Category: Web Templates</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="{% static 'portfolio/imgs/folio-3.jpg' %}" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Web Designing</h5>
+                                    <p class="font-weight-normal">Category: Web Templates</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div><!-- end of row -->
+        </div><!-- end of container -->
+    </section> <!-- end of portfolio section -->
+
+
+    
+    <!-- proyectos section -->
+    <section class="section" id="proyectos">
+        <!-- container -->
+        <div class="container text-center">
+            <h6 class="section-title mb-6">Proyects</h6>
+            <!-- blog-wrapper -->
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="{% static 'portfolio/imgs/inmo.png' %}" class="blog-card-img"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title"> Real estate search website</h6>
+                        <p>I am currently working on a personal project: a real estate search website built with Django. It will include user systems and a database of properties, but it's not ready to be shown yet.</p>
+                </div>
+            </div><!-- end of blog wrapper -->
+            <!-- blog-wrapper -->
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="{% static 'portfolio/imgs/rea.png' %}" class="blog-card-img"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Rea</h6>
+                        <p>I am part of Reforestación Alimentaria, a non-profit organization dedicated to reforesting neglected areas. I am a member of its IT group.</p>
+
+                        <a href="https://reforestacionalimentaria.org/" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div><!-- end of blog wrapper -->
+            <!-- blog-wrapper -->
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="{% static 'portfolio/imgs/logo.png' %}" class="blog-card-img"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Mandalo</h6>
+                        <p>Mandalo is a mass distribution website that started as a Python bot for mass diffusion. We began adding more tools, such as email and Instagram distribution. This website is still in process and not yet on the cloud</p>
+                        <a href="https://github.com/JuanseGZZ/mandalo" class="blog-card-link">Read more<i class="ti-angle-double-right"></i></a>
+                </div>
+            </div><!-- end of blog wrapper -->
+            <!-- blog-wrapper -->
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="{% static 'portfolio/imgs/things.png' %}" class="blog-card-img"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Among others</h6>
+                        <p>And well, mini projects which have mainly been practice exercises. Among them are web scraping Amazon, an SSH with Python, an XSS with JavaScript, a chat with sockets using C++, response bots, Binance bots, among other things without a user interface.</p>
+                        <a href="https://github.com/JuanseGZZ" class="blog-card-link">Read more (Some are hidden)<i class="ti-angle-double-right"></i></a>
+                </div>
+            </div><!-- end of blog wrapper -->
+
+
+        </div><!-- end of container -->
+    </section><!-- end of blog section -->
+
+    <!-- contact section -->
+<section class="section" id="contact">
+    <div class="container text-center">
+        <p class="section-subtitle">How can you communicate?</p>
+        <h6 class="section-title mb-5">Contact Me</h6>
+        <!-- contact form -->
+        <form action="/contact/" method="post" class="contact-form col-md-10 col-lg-8 m-auto">
+            {% csrf_token %}
+            <div class="form-row">
+                <div class="form-group col-sm-6">
+                    <input type="text" name="name" size="50" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="form-group col-sm-6">
+                    <input type="email" name="email" class="form-control" placeholder="Enter Email" required>
+                </div>
+                <div class="form-group col-sm-12">
+                    <textarea name="message" id="comment" rows="6" class="form-control" placeholder="Write Something" required></textarea>
+                </div>
+                <div class="form-group col-sm-12 mt-3">
+                    <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">
+                </div>
+            </div>
+        </form><!-- end of contact form -->
+    </div><!-- end of container -->
+</section><!-- end of contact section -->
+
+
+    <!-- core  -->
+    <script src="{% static 'portfolio/vendors/jquery/jquery-3.4.1.js' %}"></script>
+    <script src="{% static 'portfolio/vendors/bootstrap/bootstrap.bundle.js' %}"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="{% static 'portfolio/vendors/bootstrap/bootstrap.affix.js' %}"></script>
+
+    <!-- Meyawo js -->
+    <script src="{% static 'portfolio/js/meyawo.js' %}"></script>
+</body>
+
+</html>
